@@ -1,0 +1,29 @@
+git config --global user.name "xubl"
+git config --global user.email "jnhcxu@126.com"
+
+git init
+
+git add readme.txt
+git commit -m "new file"
+
+git status
+
+git diff readme.txt
+
+git log
+git log --pretty=oneline
+git reflog
+
+git reset HEAD readme.txt
+git reset --hard HEAD^	
+git reset --hard HEAD^^
+git reset --hard HEAD~100
+git reset --hard abe9d
+
+git restore readme.txt
+git checkout -- readme.txt
+
+git rm test.txt
+
+git remote add origin git@github.com:jnhcxu/gittest.git
+
