@@ -26,4 +26,7 @@ git checkout -- readme.txt
 git rm test.txt
 
 git remote add origin git@github.com:jnhcxu/gittest.git
+git push -u origin master
+ 
+
 
