@@ -6,4 +6,4 @@ commit after add
 
 new branch dev
 Creating a new branch is quick and simple.
-
+modified in master
