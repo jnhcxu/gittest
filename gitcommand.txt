@@ -34,5 +34,26 @@ git push -u origin master
 
 git clone git@github.com:jnhcxu/gitskills.git
 
+git checkout -b dev
+
+git branch
+
+git checkout master
+
+git merge dev
+git branch -d dev
+
+git switch -c dev
+git switch master
+
+git merge --no-ff -m "no fast forward" dev
+
+git stash
+git stash apply
+git stash drop
+git stash pop
+
+
+
 
 
